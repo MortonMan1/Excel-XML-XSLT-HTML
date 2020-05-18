@@ -10,6 +10,7 @@
     <title><xsl:value-of select="data/Title"/> - <xsl:value-of select="data/SubTitle"/></title>
     <style>
         /* 
+        TODO: somehow use the variables for styles
         #partsTable tr:nth-child(even){
             background-color: {$TableBodyEvenRowsBackground};
         }*/

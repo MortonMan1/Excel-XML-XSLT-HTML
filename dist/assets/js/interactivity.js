@@ -11,7 +11,8 @@ function loadXMLDoc(filename)
 
     xhttp.open("GET", filename, false);
     try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-
+   
+    //Didnt fix CORS issue:
     //xhttp.setRequestHeader("Origin", '*');
     //xhttp.setRequestHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
@@ -21,8 +22,8 @@ function loadXMLDoc(filename)
 
 function displayResult()
 {
-    xml = loadXMLDoc("T:/Projects/Interview Tasks/CAD IT/cadit-uk-simon-excel-xml-xslt-html-284b5620a21e/Excel-XML-XSLT-HTML/tmp/xml2.xml");
-    xsl = loadXMLDoc("T:/Projects/Interview Tasks/CAD IT/cadit-uk-simon-excel-xml-xslt-html-284b5620a21e/Excel-XML-XSLT-HTML/src/transform.xsl");
+    xml = loadXMLDoc("T:/Excel-XML-XSLT-HTML/src/xml.xml");
+    xsl = loadXMLDoc("T:/Excel-XML-XSLT-HTML/src/transform.xsl");
     // code for IE
     if (window.ActiveXObject || xhttp.responseType == "msxml-document")
     {
@@ -41,10 +42,7 @@ function displayResult()
 
 $(document).ready(function () {
     $( "#partsButton" ).click(function() {
-        console.log("helklo from jquery");
-        //alert( "Handler for .click() called." );
         if($( "#partsTable" ).css('display') === 'none') {
-
             $( "#partsTable" ).css("display", "table");
             $( "#partsButton" ).html("Hide Parts List");
         }

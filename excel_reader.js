@@ -31,7 +31,13 @@ for(sheetIndex = 0; sheetIndex < noOfSheets; sheetIndex++){
         }
     }
     else{
-        //TODO x axis headers sheet
+        /*
+         * TODO:
+         * X axis headers sheet
+        */
+
+        //get first row as headers
+        //foreach row, add new element to object using headers
     }
 }
 
@@ -58,7 +64,6 @@ function checkRow(row, rowNumber){
     //if first element not empty
     if(row[0]){
         innerRow = false;
-        console.log("row", row[0]);
         //push as new element (if first part not null)
         addRow(row, noOfElements);
     }

@@ -1,2 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<content/>
+<LogoFilename>cadit-uk-logo.png</LogoFilename>
+<LogoAlt>CAD-IT UK</LogoAlt>
+<Title>DeLorean Time Machine</Title>
+<SubTitle>Service Bill of Materials</SubTitle>
+<PartsTableData>*(see sheet 2)</PartsTableData>
+<ColourCodes>
+	<BodyFont>#000000</BodyFont>
+	<SubTitle>#CCCCCC</SubTitle>
+	<TableHeaderBackground>#034D79</TableHeaderBackground>
+	<TableBodyEvenRowsBackground>#ECECEC</TableBodyEvenRowsBackground>
+	<TableBodyRowHoverBackground>#a9cfe5</TableBodyRowHoverBackground>
+</ColourCodes>
