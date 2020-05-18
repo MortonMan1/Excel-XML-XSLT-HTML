@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>  
+<data>
+	<LogoFilename>cadit-uk-logo.png</LogoFilename>
+	<LogoAlt>CAD-IT UK</LogoAlt>
+	<Title>DeLorean Time Machine</Title>
+	<SubTitle>Service Bill of Materials</SubTitle>
+	<PartsTableData>*(see sheet 2)</PartsTableData>
+	<ColourCodes>
+		<BodyFont>#000000</BodyFont>
+		<SubTitle>#CCCCCC</SubTitle>
+		<TableHeaderBackground>#034D79</TableHeaderBackground>
+		<TableBodyEvenRowsBackground>#ECECEC</TableBodyEvenRowsBackground>
+		<TableBodyRowHoverBackground>#a9cfe5</TableBodyRowHoverBackground>
+	</ColourCodes>
+	<parts>
+		<part>
+			<Seq>1</Seq>
+			<PartNumber>A0001</PartNumber>
+			<PartDescription>Flux capacitor</PartDescription>
+			<Qty>1</Qty>
+		</part>
+		<part>
+			<Seq>2</Seq>
+			<PartNumber>B0023</PartNumber>
+			<PartDescription>Hyperdrive</PartDescription>
+			<Qty>1</Qty>
+		</part>
+		<part>
+			<Seq>3</Seq>
+			<PartNumber>C0152</PartNumber>
+			<PartDescription>Tesla Coil</PartDescription>
+			<Qty>1</Qty>
+		</part>
+		<part>
+			<Seq>4</Seq>
+			<PartNumber>C0153</PartNumber>
+			<PartDescription>Speedometer</PartDescription>
+			<Qty>2</Qty>
+		</part>
+		<part>
+			<Seq>5</Seq>
+			<PartNumber>C0153a</PartNumber>
+			<PartDescription>Thermal Exchanger</PartDescription>
+			<Qty>2</Qty>
+		</part>
+		<part>
+			<Seq>6</Seq>
+			<PartNumber>DX123</PartNumber>
+			<PartDescription>Emergency Monkey Wrench</PartDescription>
+			<Qty>1</Qty>
+		</part>
+	</parts>
+</data>

@@ -1,1 +1,46 @@
 /** Add your styles here **/
+.BodyFont{
+    color: #000000;
+}
+.subTitle{
+    font-size: smaller;
+}
+
+.TableBodyEvenRowsBackground{
+    background-color: #ECECEC;
+}
+.TableBodyRowHoverBackground{
+    background-color: #a9cfe5;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#partsButton{
+    padding: 5px;
+    margin: 10px;
+}
+
+#partsTable{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#partsTable td, #customers th {
+    border: 1px solid black;
+    padding: 5px;
+}
+#partsTable tr:nth-child(even){
+    background-color: #ECECEC;
+}
+#partsTable tr:hover {
+    background-color: #a9cfe5;
+}
+#partsTable th{
+    color: #CCCCCC;
+    padding: 5px 10px 5px 10px;
+
+}
